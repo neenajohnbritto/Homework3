@@ -50,12 +50,14 @@ if(needNumbers){
 
 
 
-var newPassword = [];
-var selectChar;
-var j = 0;
-var finalPassword = "";
+
+
 
 function generatePassword(){
+    var newPassword = [];
+    var selectChar;
+    var j = 0;
+    var finalPassword = "";
     console.log(specificationsArray.length);
     if(pwdlength >= 8){
     if(specificationsArray.length > 0){
