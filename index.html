@@ -6,14 +6,19 @@
 
   <meta charset="UTF-8">
   <title>Password Generator</title>
-
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="./style.css">
 
 </head>
 
 <body>
+       
+    
+    
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <h1 id="name"><strong>Password Generator</strong></h1>
         
@@ -33,7 +38,7 @@
                     <div class="row">
                         <div class="col-md-12" class="form-group">
                             
-                            <p>Your secure password</p>
+                            <p id="securePwd">Your secure password</p>
                         </div>       
                     </div>
                     
@@ -48,7 +53,7 @@
                         
                         <br>
                         <div class="col-md-6">
-                            <button type="button" class="btn btn-primary" id="genPwd">Generate Password</button>
+                            <button type="button" class="btn btn-primary" id="genPwd" onclick="generatePassword()" >Generate Password</button>
                         </div>    
                         <div class="col-md-6">
                             <button type="button" class="btn btn-primary" id="copyTo" disabled>Copy to Clipboard</button>
@@ -59,6 +64,7 @@
             
                 
               </div>
+              <script src="./script.js"></script>
 </body>
 
 </html>
