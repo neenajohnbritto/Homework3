@@ -7,5 +7,5 @@
 # User is asked if Numbers are needed.
 # On clicking Generate Password, a new password based on users selection criteria is created and displayed.
 
-Link for the deployed page: https://neenajohnbritto.github.io/Homework3/
+# Link for the deployed page: https://neenajohnbritto.github.io/Homework3/
 
